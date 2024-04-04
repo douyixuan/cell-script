@@ -1,0 +1,10 @@
+//package main
+import "debug"
+import "tx"
+
+function main() {
+    var ok bool
+    ok = tx.scriptVerify()
+    debug.Printf("hello world! %d\n", ok)
+    return 0
+}

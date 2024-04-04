@@ -1,0 +1,11 @@
+package main
+
+import "cell"
+import "debug"
+
+
+function main() {
+	var c cell.Cell
+	c = 1234
+	return 0
+}

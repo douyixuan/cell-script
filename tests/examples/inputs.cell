@@ -1,0 +1,13 @@
+import "debug"
+import "cell"
+import "tx"
+
+function main() {
+	ok := tx.scriptVerify()
+	debug.Printf("%d:", ok)
+	var ins []cell.Cell
+	ins = tx.inputs()
+	var ret int64
+	ret = int64(len(ins))
+	return 0
+}

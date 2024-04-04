@@ -1,0 +1,6 @@
+//package main
+import "debug"
+function main() {
+    debug.Printf("hi")
+    return 0
+}
